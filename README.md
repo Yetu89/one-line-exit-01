@@ -1,8 +1,8 @@
 # The One-Line Exit
 
-[![make.fun](https://make.fun/badge/u-kreutzx-the-one-line-exit-1dc652d1/badge.svg)](https://make.fun/bounty/u-kreutzx-the-one-line-exit-1dc652d1)
-[![Rank](https://make.fun/badge/u-kreutzx-the-one-line-exit-1dc652d1/rank.svg)](https://make.fun/bounty/u-kreutzx-the-one-line-exit-1dc652d1/leaderboard)
-[![Reward](https://make.fun/badge/u-kreutzx-the-one-line-exit-1dc652d1/reward.svg)](https://make.fun/bounty/u-kreutzx-the-one-line-exit-1dc652d1)
+[![make.fun](https://make.fun/badge/u-kreutzx-the-one-line-exit-1dc652d1.svg)](https://make.fun/bounty/u-kreutzx-the-one-line-exit-1dc652d1)
+[![rank](https://make.fun/badge/u-kreutzx-the-one-line-exit-1dc652d1/Yetu89/one-line-exit-01/rank.svg)](https://make.fun/bounty/u-kreutzx-the-one-line-exit-1dc652d1)
+[![reward](https://make.fun/badge/u-kreutzx-the-one-line-exit-1dc652d1/Yetu89/one-line-exit-01/reward.svg)](https://make.fun/bounty/u-kreutzx-the-one-line-exit-1dc652d1)
 
 Entry for the make.fun bounty **"The One-Line Exit"** — write a one-line exit message.
 
