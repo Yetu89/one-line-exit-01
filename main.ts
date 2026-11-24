@@ -18,6 +18,29 @@
 //   dramatic, but the final act is petty, bureaucratic, and instantly
 //   recognisable to anyone who has ever worked in an office.
 //
+//   Why the form matters as much as the joke:
+//   - One sentence, one breath: the whole exit fits in a single line, so
+//     the punchline ("as is tradition here") arrives before the reader
+//     can brace for it. A longer farewell would dilute the surprise.
+//   - The setup is mundane ("I quit.") and the escalation is specific
+//     (replying-all to your OWN farewell email WITH a correction). The
+//     specificity is the humour: everyone has seen a reply-all correction,
+//     nobody expects it as a resignation move.
+//   - "as is tradition here" reframes a personal act as company culture.
+//     It implies this workplace has done this before — a running gag the
+//     reader is suddenly part of. That implied history is what makes the
+//     line feel lived-in rather than written.
+//   - At 106 characters it sits comfortably inside the 140-character
+//     gate with 34 characters to spare, so the entry never risks the
+//     length rule even if a platform counts characters differently.
+//
+// THE TEXT, CHARACTER FOR CHARACTER:
+//   The TEXT constant below is the exact entry Grok scored 9/10. It must
+//   not be edited — not a comma, not a capital. Any change invalidates
+//   the score the entry was chosen for. If the text ever needs to change,
+//   it goes through re-scoring first, and only then is this constant
+//   updated together with the README quote.
+//
 // GATE RULES (from the bounty kit):
 //   - Output file: /output/entry.txt (OUTPUT_DIR env overrides the dir)
 //   - Encoding: UTF-8
@@ -34,6 +57,18 @@
 //      back and compares it byte-for-byte with TEXT. Any mismatch — a
 //      trailing newline, a different encoding, a truncated write — throws
 //      immediately, so a bad output can never pass silently.
+//
+//   The two layers guard different failure modes on purpose: validation
+//   catches a bad TEXT constant at authoring time, while the round-trip
+//   catches a bad WRITE at runtime (disk, encoding, or an accidental
+//   newline appended by a future edit). Either layer alone would leave
+//   one of those modes unchecked.
+//
+// HOW TO RUN:
+//   node main.ts            # writes /output/entry.txt
+//   OUTPUT_DIR=/tmp/out node main.ts   # writes to a custom directory
+//   Node >= 22 runs TypeScript directly (type stripping); no build step
+//   and no dependencies are needed.
 // ============================================================================
 
 import * as fs from "node:fs";
